@@ -9,6 +9,13 @@ Descubra a idade estimada de uma pessoa apenas pelo nome, usando dados inteligen
 
 ![Preview](https://media.discordapp.net/attachments/1241202765850480788/1390752342982266930/ageguesser.png?ex=6869668d&is=6868150d&hm=153f74e76af3dbde857a28e890f3ec32a73cea5ff8dccc3bcea878a498e45b04&=&format=webp&quality=lossless&width=1106&height=544)
 
+---
+
+## 🌐 Acesse a Aplicação Online
+
+Você pode testar o **Age Guesser** diretamente pelo link abaixo:
+
+[👉 Acesse Age Guesser no Vercel](https://svelte-ageguesser-git-main-larissapinheiros-projects.vercel.app/)
 
 ---
 
