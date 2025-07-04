@@ -35,6 +35,8 @@
 
   function handleInput(e) {
     const value = e.target.value.trim();
+    const isValidName = /^[a-zA-ZÀ-ÿ\s]+$/.test(value);
+
     clearTimeout(debounce);
     name = value;
 
@@ -42,6 +44,16 @@
       goto('/');
       return;
     }
+
+      if (!isValidName) {
+    error = "Por favor, digite um nome válido (apenas letras).";
+    status = 'error';
+    result = null;
+    return;
+    }
+
+    error = '';
+    status = 'idle';
 
     debounce = setTimeout(() => {
       const url = new URL(window.location.href);
